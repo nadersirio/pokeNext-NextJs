@@ -1,0 +1,84 @@
+.background {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Box_Forest_E_1500.png);
+  background-color:#a08850;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.pokeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 730px;
+}
+
+.pokeContent h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  color: tomato;
+}
+
+.pokeContent a {
+  text-decoration: none;
+  color: #2c3e16;
+}
+
+.pokeContent a:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+.layout {
+  max-width: 710px;
+  padding-top: 50px;
+}
+
+.ulPoke {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liPoke {
+  width: 120px;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  color: black;
+  transition: 0.3s;
+}
+
+.liPoke:hover {
+  scale: 1.2;
+}
+
+.buttons {
+  display: flex;
+  gap: 7px;
+}
+
+.PokeButton {
+  background-color: rgb(235, 110, 110);
+  padding: 4px;
+  border: none;
+  transition: 0.3s;
+}
+
+.PokeButton:hover {
+  cursor: pointer;
+  color: white;
+  scale: 1.1;
+}

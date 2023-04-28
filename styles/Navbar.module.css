@@ -1,0 +1,36 @@
+.navContent {
+  background-color: bisque;
+  min-height: 110px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10em;
+}
+
+.navLayout {
+  display: flex;
+  font-size: 2em;
+  font-weight: 700;
+  color:brown;
+  gap: 20px;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 700;
+  gap: 20px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: unset;
+  transition: color 0.3s ease-out;
+}
+
+.navBar :hover {
+  color:brown;
+  scale: 1.2;
+}

@@ -1,0 +1,81 @@
+.background {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Box_Sky_E_1500.png);
+  background-color:#c88828;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 730px;
+}
+
+.aboutContent h1 {
+  text-shadow: 1px 1px black;
+  font-size: 2em;
+  font-weight: 500;
+  color:tomato;
+}
+
+.aboutData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  padding-bottom: 5em;
+}
+
+.aboutData h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  color: white;
+}
+
+.aboutData a {
+  text-decoration: none;
+  color: unset;
+  transition: 0.3s;
+}
+
+.aboutData a:hover {
+  scale: 1.1;
+}
+
+.aboutData button {
+  background-color: antiquewhite;
+  color: tomato;
+  font-size: 0.9em;
+  padding: 1px 3px;
+}
+
+.accountsLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3em;
+  color: tomato;
+  margin: 20px;
+}
+
+.returnButton {
+  background-color: rgb(235, 110, 110);
+  padding: 4px;
+  transition: 0.3s;
+}
+
+.returnButton:hover {
+  color: white;
+  scale: 1.1;
+}

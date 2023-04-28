@@ -1,0 +1,77 @@
+.pokeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 620px;
+  height: 730px;
+}
+
+.pokeContent h1 {
+  text-align: center;
+  font-size: 2em;
+  color: red;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  padding-bottom: 6em;
+  gap: 30px;
+}
+
+.layout h2 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.layout li {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  color: black;
+}
+
+.layout p {
+  font-size: 1.3em;
+}
+
+.layout button {
+  background-color: bisque;
+  color: rgb(79, 88, 224);
+  font-size: 0.9em;
+  padding: 1px 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.layout button:hover {
+  scale: 1.1;
+}
+
+.layout a {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  transition: 0.5s;
+}
+
+.layout a:hover {
+  color: white;
+  scale: 1.1;
+}
+
+.typeLayout {
+  display: flex;
+  gap: 5px;
+}
+
+.returnButton {
+  background-color: rgb(235, 110, 110);
+  padding: 5px;
+  transition: 0.3s;
+}

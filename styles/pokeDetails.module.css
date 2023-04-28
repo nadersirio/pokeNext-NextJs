@@ -1,0 +1,93 @@
+.background {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Box_Savanna_E_1500.png);
+  background-color:#b89850;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.contentFather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 760px;
+  height: 710px;
+  gap: 50px;
+}
+
+.contentFather h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: tomato;
+}
+
+.contentFather a {
+  text-decoration: none;
+  color: white;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.detailsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 70px;
+  gap: 60px;
+}
+
+.typesContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.typeContentChild {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.typeContentChild p {
+  font-size: 1.2em;
+  color: red;
+}
+
+.typesLayout {
+  display: flex;
+  align-items: center;
+  max-width: 125px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.shinyLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+  color: rgb(29, 86, 161);
+}
+
+.returnButton {
+  background-color: rgb(235, 110, 110);
+  padding: 4px;
+  transition: 0.3s;
+}
+
+.returnButton:hover {
+  color: white;
+  scale: 1.1;
+}

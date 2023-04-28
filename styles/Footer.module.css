@@ -1,0 +1,10 @@
+.footer {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerText {
+  font-size: 0.9em;
+  color:brown;
+}
