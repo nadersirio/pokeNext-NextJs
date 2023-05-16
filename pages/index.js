@@ -33,7 +33,6 @@ export default function Home({ details: initialDetails, next: initialNext, previ
   const [backDetails, setPrevious] = useState(initialPrevious);
 
   const callPage = async (url) => {
-    console.log(url)
     const data = await fetch(url);
     const pokemons = await data.json();
     const arrayDetails = [];
