@@ -1,7 +1,7 @@
 import Styles from '../../styles/Pokedex.module.css'
 import Link from 'next/link'
-import { Background } from './Style'
-import { getID, getTypeName } from './Helpers';
+import { Background } from '../../components/Style'
+import { getID, getTypeName } from '../../components/Helpers';
 
 export async function getServerSideProps(context) {
   const { pokemonId } = context.params;
